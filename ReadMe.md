@@ -119,6 +119,8 @@
 
 <p align="center">
   <img src="https://github-readme-stats.vercel.app/api?username=AnuragBojja&theme=tokyonight&hide_border=false&include_all_commits=true&count_private=true%22%20height=%22170" />
+  </p>
+  <p align="center">
   <img src="https://github-readme-streak-stats.herokuapp.com/?user=AnuragBojja&theme=tokyonight&hide_border=false" height="170" />
 </p>
 
