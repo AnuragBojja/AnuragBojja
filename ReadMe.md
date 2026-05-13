@@ -1,46 +1,71 @@
-# Anurag Bojja
-
-Software & Cloud Engineer · Published Researcher (Springer ICDSAI 2023)
-
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=flat&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/anurag-bojja-81a405192/)
-[![GitHub](https://img.shields.io/badge/GitHub-181717?style=flat&logo=github&logoColor=white)](https://github.com/AnuragBojja)
-[![Email](https://img.shields.io/badge/Email-EA4335?style=flat&logo=gmail&logoColor=white)](mailto:anuragbojja19@gmail.com)
-![Location](https://img.shields.io/badge/Milwaukee%2C%20WI-open%20to%20relocation-6c757d?style=flat)
-
----
-
-I build backend systems, automate cloud infrastructure, and ship distributed applications on AWS and Azure. My work spans Python data pipelines, Terraform-managed production infrastructure, Ansible role architectures, and CI/CD automation. I also research NLP — published in Springer at ICDSAI 2023.
+<div align="center">
+  <h1>Anurag Bojja</h1>
+  <p>Software & Cloud Engineer &nbsp;·&nbsp; Published Researcher (Springer ICDSAI 2023)</p>
+  <p>
+    <a href="mailto:anuragbojja19@gmail.com">anuragbojja19@gmail.com</a> &nbsp;·&nbsp;
+    <a href="https://www.linkedin.com/in/anurag-bojja-81a405192/">LinkedIn</a> &nbsp;·&nbsp;
+    <a href="https://github.com/AnuragBojja">GitHub</a> &nbsp;·&nbsp;
+    Milwaukee, WI — open to relocation
+  </p>
+</div>
 
 ---
 
-## Featured projects
-
-| Project | Stack | Description |
-|---|---|---|
-| [RoboShop — 10-layer Terraform](https://github.com/AnuragBojja/terraform-roboshop-main) | Terraform · AWS · Ansible | Full production AWS infra: VPC, ALB, ASG, CloudFront, ACM, SSM-decoupled state, self-bootstrapping bastion, Ansible pipeline |
-| [RoboShop — Ansible roles](https://github.com/AnuragBojja/ansible-roboshop-roles) | Ansible · Jinja2 · AWS SSM | Flat playbooks refactored into a full roles architecture. One-command deploy for any of 10 services, zero hardcoded credentials |
-| [RoboShop — Bash automation](https://github.com/AnuragBojja/shell-roboshop) | Bash · AWS CLI · Route53 | 13 modular scripts → shared common.sh library. Idempotent provisioning, full error trapping, EC2 + DNS via AWS CLI |
-| [Food delivery — multi-cloud](https://github.com/AnuragBojja/food-delivery) | Django · AWS · Azure | Same Django app deployed on EC2 (IaaS) and Azure Web App (PaaS). Shared MySQL backend, GitHub CI/CD, TLS |
+I build backend systems, automate cloud infrastructure, and deploy distributed applications on AWS and Azure. My work spans Python data pipelines, Terraform-managed production infrastructure, Ansible role architectures, and CI/CD automation. Published NLP researcher — Springer ICDSAI 2023.
 
 ---
 
 ## Stack
 
-**Cloud & IaC** — AWS (EC2, RDS, ALB, ASG, S3, Route53, CloudFront, SSM, IAM, CloudWatch) · Azure · Terraform · Ansible · CloudFormation
+| Cloud & IaC | DevOps | Languages | Data & Backend |
+|---|---|---|---|
+| AWS · Azure · Terraform · Ansible · CloudFormation | GitHub Actions · CodePipeline · Docker · Nginx · Linux | Python · Bash · SQL · Java · JavaScript | Django · Flask · MySQL · MongoDB · Redis · Pandas |
 
-**DevOps** — GitHub Actions · AWS CodePipeline · Docker · Nginx · Gunicorn · Linux
+---
 
-**Languages** — Python · Bash · SQL · Java · JavaScript
+## Projects
 
-**Frameworks & data** — Django · Flask · MySQL · PostgreSQL · MongoDB · Redis · RabbitMQ · Pandas · NumPy
+**[RoboShop — 10-layer Terraform](https://github.com/AnuragBojja/terraform-roboshop-main)**
+`Terraform` `AWS` `Ansible` `CloudFront` `SSM`
+
+Full production AWS infra across 10 independently state-managed layers. SSM-decoupled cross-layer referencing, self-bootstrapping bastion, CloudFront + ACM endpoint, 6-service for_each deploy loop with rolling ASG refresh.
+
+---
+
+**[RoboShop — Ansible roles](https://github.com/AnuragBojja/ansible-roboshop-roles)**
+`Ansible` `Jinja2` `AWS SSM` `EC2`
+
+Flat per-service playbooks refactored into a full roles architecture. SSM secrets via amazon.aws lookup, all systemd units and Nginx configs as Jinja2 templates. One parameterized command deploys any of 10 services.
+
+---
+
+**[RoboShop — Bash automation](https://github.com/AnuragBojja/shell-roboshop)**
+`Bash` `AWS CLI` `Route53` `EC2`
+
+13 modular Bash scripts provisioning a 10-service polyglot platform, refactored into a shared common.sh library — each service script down from ~70 lines to under 10. Idempotent, set -euo pipefail, VALIDATOR() throughout.
+
+---
+
+**[Food delivery — multi-cloud deploy](https://github.com/AnuragBojja/food-delivery)**
+`Django` `AWS EC2` `Azure` `MySQL`
+
+Django app deployed simultaneously on AWS EC2 (Nginx + Gunicorn) and Azure Web App. Shared Azure MySQL backend, GitHub CI/CD, TLS via Certbot, IAM and SG-based access controls.
 
 ---
 
 ## Research
 
-**Review Analysis Using Web Scraping in Python** — Springer Proceedings, ICDSAI 2023, California State University, USA.
-End-to-end NLP pipeline: BeautifulSoup · NLTK · spaCy · TF-IDF · SVM · Logistic Regression, deployed on AWS EC2.
+**Review Analysis Using Web Scraping in Python**
+*Springer Proceedings · ICDSAI 2023 · California State University, USA*
+
+End-to-end NLP sentiment analysis pipeline: web scraping with BeautifulSoup & Selenium, preprocessing with NLTK & spaCy, TF-IDF feature extraction, SVM / Logistic Regression / Naive Bayes classification — deployed and benchmarked on AWS EC2.
+
+`NLP` `Python` `AWS EC2` `scikit-learn` `NLTK`
 
 ---
 
-![GitHub stats](https://github-readme-stats.vercel.app/api?username=AnuragBojja&show_icons=true&hide_border=true&count_private=true&theme=default)
+<div align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=AnuragBojja&show_icons=true&hide_border=true&count_private=true&theme=default" height="120" />
+  &nbsp;
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=AnuragBojja&hide_border=true&theme=default" height="120" />
+</div>
