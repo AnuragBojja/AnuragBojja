@@ -145,15 +145,16 @@ Built an end-to-end NLP sentiment analysis pipeline using Python, BeautifulSoup,
 
 ## 📊 GitHub Stats
 
-<div align="center">
+<!-- <div align="center">
   <img src="https://github-readme-stats.vercel.app/api?username=AnuragBojja&theme=github_dark&hide_border=true&include_all_commits=true&count_private=true&show_icons=true" height="165" />
   <img src="https://github-readme-streak-stats.herokuapp.com/?user=AnuragBojja&theme=github-dark-blue&hide_border=true" height="165" />
-</div>
-
+</div> -->
 <div align="center">
   <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=AnuragBojja&theme=github_dark&hide_border=true&layout=compact&langs_count=8" height="145" />
 </div>
-
+<div align="center">
+  <a href="https://github.com/AnuragBojja?tab=repositories">View all repositories →</a>
+</div>
 ---
 
 ## 💡 Currently Focused On
