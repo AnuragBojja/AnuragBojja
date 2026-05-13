@@ -1,140 +1,46 @@
-<h1 align="center">Hi, I'm Anurag Bojja 👋</h1>
-<h3 align="center">Aspiring Data Analyst | Cloud & DevOps Enthusiast | Problem Solver</h3>
+# Anurag Bojja
 
-<p align="center">
-  <a href="mailto:your-email@example.com">
-    <img src="https://img.shields.io/badge/Email-Contact-red?style=for-the-badge&logo=gmail&logoColor=white" />
-  </a>
-  <a href="https://github.com/AnuragBojja">
-    <img src="https://img.shields.io/badge/GitHub-AnuragBojja-black?style=for-the-badge&logo=github" />
-  </a>
-  <img src="https://komarev.com/ghpvc/?username=AnuragBojja&style=for-the-badge&color=blue" alt="profile views" />
-</p>
+Software & Cloud Engineer · Published Researcher (Springer ICDSAI 2023)
+
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=flat&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/anurag-bojja-81a405192/)
+[![GitHub](https://img.shields.io/badge/GitHub-181717?style=flat&logo=github&logoColor=white)](https://github.com/AnuragBojja)
+[![Email](https://img.shields.io/badge/Email-EA4335?style=flat&logo=gmail&logoColor=white)](mailto:anuragbojja19@gmail.com)
+![Location](https://img.shields.io/badge/Milwaukee%2C%20WI-open%20to%20relocation-6c757d?style=flat)
 
 ---
 
-## 💫 About Me
-
-- 🔭 I’m currently working on a **cloud-based microservices project (Roboshop)** using **AWS, Terraform, and Ansible** to automate infrastructure provisioning and deployment.
-- 📊 I’m also building **data-focused projects** to strengthen my **SQL and analytics skills**.
-- 👯 I’m looking to collaborate on **data analytics, cloud-based applications, and DevOps projects**.
-- 🤝 I’m looking for help with **advanced SQL, query optimization, and efficient data pipelines**.
-- 🌱 I’m currently learning **Advanced SQL, Python for data analysis, AWS, Terraform, and Ansible**.
-- 💬 Ask me about **SQL, Python basics, Power BI, AWS fundamentals, Terraform, Ansible, and GitHub workflows**.
-- ⚡ Fun fact: I enjoy building **end-to-end solutions** by combining **data, cloud, and automation**.
+I build backend systems, automate cloud infrastructure, and ship distributed applications on AWS and Azure. My work spans Python data pipelines, Terraform-managed production infrastructure, Ansible role architectures, and CI/CD automation. I also research NLP — published in Springer at ICDSAI 2023.
 
 ---
 
-## 🌐 Connect With Me
+## Featured projects
 
-<p align="left">
-  <a href="mailto:your-email@example.com">
-    <img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" />
-  </a>
-</p>
-
----
-
-## 💻 Tech Stack
-
-### Programming & Scripting
-<p>
-  <img src="https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white" />
-  <img src="https://img.shields.io/badge/C-00599C?style=for-the-badge&logo=c&logoColor=white" />
-  <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" />
-  <img src="https://img.shields.io/badge/PowerShell-5391FE?style=for-the-badge&logo=powershell&logoColor=white" />
-  <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" />
-  <img src="https://img.shields.io/badge/C%23-239120?style=for-the-badge&logo=csharp&logoColor=white" />
-</p>
-
-### Cloud & DevOps
-<p>
-  <img src="https://img.shields.io/badge/AWS-232F3E?style=for-the-badge&logo=amazonaws&logoColor=white" />
-  <img src="https://img.shields.io/badge/Azure-0078D4?style=for-the-badge&logo=microsoftazure&logoColor=white" />
-  <img src="https://img.shields.io/badge/Google_Cloud-4285F4?style=for-the-badge&logo=googlecloud&logoColor=white" />
-  <img src="https://img.shields.io/badge/Terraform-844FBA?style=for-the-badge&logo=terraform&logoColor=white" />
-  <img src="https://img.shields.io/badge/Jenkins-D24939?style=for-the-badge&logo=jenkins&logoColor=white" />
-  <img src="https://img.shields.io/badge/GitHub_Actions-2088FF?style=for-the-badge&logo=github-actions&logoColor=white" />
-  <img src="https://img.shields.io/badge/GitLab_CI-FC6D26?style=for-the-badge&logo=gitlab&logoColor=white" />
-  <img src="https://img.shields.io/badge/Nginx-009639?style=for-the-badge&logo=nginx&logoColor=white" />
-  <img src="https://img.shields.io/badge/Apache-D22128?style=for-the-badge&logo=apache&logoColor=white" />
-  <img src="https://img.shields.io/badge/RabbitMQ-FF6600?style=for-the-badge&logo=rabbitmq&logoColor=white" />
-</p>
-
-### Frameworks & Tools
-<p>
-  <img src="https://img.shields.io/badge/Django-092E20?style=for-the-badge&logo=django&logoColor=white" />
-  <img src="https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white" />
-  <img src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB" />
-  <img src="https://img.shields.io/badge/Apache_Maven-C71A36?style=for-the-badge&logo=apachemaven&logoColor=white" />
-  <img src="https://img.shields.io/badge/Postman-FF6C37?style=for-the-badge&logo=postman&logoColor=white" />
-  <img src="https://img.shields.io/badge/Jira-0052CC?style=for-the-badge&logo=jira&logoColor=white" />
-  <img src="https://img.shields.io/badge/Figma-F24E1E?style=for-the-badge&logo=figma&logoColor=white" />
-  <img src="https://img.shields.io/badge/Canva-00C4CC?style=for-the-badge&logo=canva&logoColor=white" />
-</p>
-
-### Databases
-<p>
-  <img src="https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white" />
-  <img src="https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge&logo=postgresql&logoColor=white" />
-  <img src="https://img.shields.io/badge/MongoDB-4EA94B?style=for-the-badge&logo=mongodb&logoColor=white" />
-  <img src="https://img.shields.io/badge/MariaDB-003545?style=for-the-badge&logo=mariadb&logoColor=white" />
-  <img src="https://img.shields.io/badge/SQLite-07405E?style=for-the-badge&logo=sqlite&logoColor=white" />
-  <img src="https://img.shields.io/badge/Redis-DD0031?style=for-the-badge&logo=redis&logoColor=white" />
-  <img src="https://img.shields.io/badge/DynamoDB-4053D6?style=for-the-badge&logo=amazondynamodb&logoColor=white" />
-  <img src="https://img.shields.io/badge/Microsoft_SQL_Server-CC2927?style=for-the-badge&logo=microsoftsqlserver&logoColor=white" />
-</p>
-
-### Data Analytics & Visualization
-<p>
-  <img src="https://img.shields.io/badge/Power_BI-F2C811?style=for-the-badge&logo=powerbi&logoColor=black" />
-  <img src="https://img.shields.io/badge/NumPy-013243?style=for-the-badge&logo=numpy&logoColor=white" />
-  <img src="https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white" />
-  <img src="https://img.shields.io/badge/Matplotlib-11557C?style=for-the-badge" />
-  <img src="https://img.shields.io/badge/Plotly-3F4F75?style=for-the-badge&logo=plotly&logoColor=white" />
-  <img src="https://img.shields.io/badge/scikit--learn-F7931E?style=for-the-badge&logo=scikitlearn&logoColor=white" />
-  <img src="https://img.shields.io/badge/TensorFlow-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white" />
-</p>
-
-### Version Control
-<p>
-  <img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white" />
-  <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" />
-</p>
+| Project | Stack | Description |
+|---|---|---|
+| [RoboShop — 10-layer Terraform](https://github.com/AnuragBojja/terraform-roboshop-main) | Terraform · AWS · Ansible | Full production AWS infra: VPC, ALB, ASG, CloudFront, ACM, SSM-decoupled state, self-bootstrapping bastion, Ansible pipeline |
+| [RoboShop — Ansible roles](https://github.com/AnuragBojja/ansible-roboshop-roles) | Ansible · Jinja2 · AWS SSM | Flat playbooks refactored into a full roles architecture. One-command deploy for any of 10 services, zero hardcoded credentials |
+| [RoboShop — Bash automation](https://github.com/AnuragBojja/shell-roboshop) | Bash · AWS CLI · Route53 | 13 modular scripts → shared common.sh library. Idempotent provisioning, full error trapping, EC2 + DNS via AWS CLI |
+| [Food delivery — multi-cloud](https://github.com/AnuragBojja/food-delivery) | Django · AWS · Azure | Same Django app deployed on EC2 (IaaS) and Azure Web App (PaaS). Shared MySQL backend, GitHub CI/CD, TLS |
 
 ---
 
-## 📌 Featured Interests
+## Stack
 
-- Data Analytics  
-- SQL Optimization  
-- Cloud Infrastructure  
-- DevOps Automation  
-- Microservices Deployment  
-- Dashboarding & Reporting  
+**Cloud & IaC** — AWS (EC2, RDS, ALB, ASG, S3, Route53, CloudFront, SSM, IAM, CloudWatch) · Azure · Terraform · Ansible · CloudFormation
 
----
+**DevOps** — GitHub Actions · AWS CodePipeline · Docker · Nginx · Gunicorn · Linux
 
-## 📊 GitHub Stats
+**Languages** — Python · Bash · SQL · Java · JavaScript
 
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=AnuragBojja&theme=tokyonight&hide_border=false&include_all_commits=true&count_private=true%22%20height=%22170" />
-  </p>
-  <p align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=AnuragBojja&theme=tokyonight&hide_border=false" height="170" />
-</p>
-
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=AnuragBojja&theme=tokyonight&hide_border=false&layout=compact" height="170" />
-</p>
+**Frameworks & data** — Django · Flask · MySQL · PostgreSQL · MongoDB · Redis · RabbitMQ · Pandas · NumPy
 
 ---
 
-## 🚀 Current Focus
+## Research
 
-```text
-Building practical skills in:
-- SQL for analytics
-- Python for data handling
-- AWS + Terraform + Ansible
-- Real-world cloud and DevOps projects
+**Review Analysis Using Web Scraping in Python** — Springer Proceedings, ICDSAI 2023, California State University, USA.
+End-to-end NLP pipeline: BeautifulSoup · NLTK · spaCy · TF-IDF · SVM · Logistic Regression, deployed on AWS EC2.
+
+---
+
+![GitHub stats](https://github-readme-stats.vercel.app/api?username=AnuragBojja&show_icons=true&hide_border=true&count_private=true&theme=default)
