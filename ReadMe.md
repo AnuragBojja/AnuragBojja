@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=180&section=header&text=Anurag%20Bojja&fontSize=52&fontColor=fff&animation=twinkling&fontAlignY=36&desc=Software%20%26%20Cloud%20Engineer%20%7C%20Published%20Researcher&descAlignY=58&descSize=16" />
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0d1117,50:1a3a5c,100:0d1117&height=160&section=header&text=Anurag%20Bojja&fontSize=50&fontColor=58a6ff&fontAlignY=40" />
 
 <p>
   <a href="mailto:anuragbojja19@gmail.com">
