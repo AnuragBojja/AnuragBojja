@@ -9,6 +9,9 @@
   <a href="https://www.linkedin.com/in/anurag-bojja-81a405192/">
     <img src="https://img.shields.io/badge/LinkedIn-Anurag%20Bojja-0d1117?style=flat-square&logo=linkedin&logoColor=0A66C2&labelColor=161b22" />
   </a>
+  <a href="https://anuragbojja.github.io/">
+    <img src="https://img.shields.io/badge/Portfolio-Visit%20Website-0d1117?style=flat-square&logo=vercel&logoColor=fff&labelColor=161b22" />
+  </a>
   <a href="https://github.com/AnuragBojja">
     <img src="https://img.shields.io/badge/GitHub-AnuragBojja-0d1117?style=flat-square&logo=github&logoColor=fff&labelColor=161b22" />
   </a>
