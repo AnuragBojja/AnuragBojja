@@ -3,7 +3,7 @@
 <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0d1117,50:1a3a5c,100:0d1117&height=160&section=header&text=Anurag%20Bojja&fontSize=50&fontColor=58a6ff&fontAlignY=40" />
 
 <p>
-  <a href="mailto:anuragbojja19@gmail.com">
+  <a href="mailto:anuragbojja23@gmail.com">
     <img src="https://img.shields.io/badge/Email-anuragbojja19%40gmail.com-0d1117?style=flat-square&logo=gmail&logoColor=EA4335&labelColor=161b22" />
   </a>
   <a href="https://www.linkedin.com/in/anurag-bojja-81a405192/">
