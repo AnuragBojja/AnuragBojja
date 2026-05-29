@@ -4,7 +4,7 @@
 
 <p>
   <a href="mailto:anuragbojja23@gmail.com">
-    <img src="https://img.shields.io/badge/Email-anuragbojja19%40gmail.com-0d1117?style=flat-square&logo=gmail&logoColor=EA4335&labelColor=161b22" />
+    <img src="https://img.shields.io/badge/Email-anuragbojja23%40gmail.com-0d1117?style=flat-square&logo=gmail&logoColor=EA4335&labelColor=161b22" />
   </a>
   <a href="https://www.linkedin.com/in/anurag-bojja-81a405192/">
     <img src="https://img.shields.io/badge/LinkedIn-Anurag%20Bojja-0d1117?style=flat-square&logo=linkedin&logoColor=0A66C2&labelColor=161b22" />
@@ -28,9 +28,9 @@
 name       : Anurag Bojja
 location   : Milwaukee, WI  |  Open to Relocation & Remote
 education  : M.S. Computer Science — University of Wisconsin–Milwaukee (2023–2025)
-focus      : Backend Systems · Cloud Infrastructure · DevOps Automation · Data Engineering
+focus      : DevSecOps · Cloud Infrastructure · Infrastructure as Code · Secure CI/CD
 research   : Published @ Springer ICDSAI 2023 — NLP Sentiment Analysis
-currently  : Data Analyst & Research Intern @ Eco Servants (California, USA)
+goal       : DevSecOps / Cloud Engineer roles where security and automation are one discipline
 ```
 
 ---
@@ -42,89 +42,91 @@ currently  : Data Analyst & Research Intern @ Eco Servants (California, USA)
 ![Azure](https://img.shields.io/badge/Azure-0078D4?style=flat-square&logo=microsoftazure&logoColor=white)
 ![Terraform](https://img.shields.io/badge/Terraform-844FBA?style=flat-square&logo=terraform&logoColor=white)
 ![Ansible](https://img.shields.io/badge/Ansible-EE0000?style=flat-square&logo=ansible&logoColor=white)
-![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
-![Kubernetes](https://img.shields.io/badge/Kubernetes-326CE5?style=flat-square&logo=kubernetes&logoColor=white)
+![CloudFormation](https://img.shields.io/badge/CloudFormation-FF9900?style=flat-square&logo=amazonaws&logoColor=white)
 
-### ⚙️ DevOps & Automation
+### 🔒 Security & Compliance
+![IAM](https://img.shields.io/badge/IAM%20Least--Privilege-232F3E?style=flat-square&logo=amazonaws&logoColor=FF9900)
+![SSM](https://img.shields.io/badge/SSM%20Secrets%20Mgmt-232F3E?style=flat-square&logo=amazonaws&logoColor=FF9900)
+![TLS](https://img.shields.io/badge/TLS%2FSSL-005C99?style=flat-square&logo=letsencrypt&logoColor=white)
+![ACM](https://img.shields.io/badge/ACM-FF9900?style=flat-square&logo=amazonaws&logoColor=white)
+![SecurityGroups](https://img.shields.io/badge/Network%20Segmentation-1a3a5c?style=flat-square&logo=amazonaws&logoColor=white)
+
+### ⚙️ DevOps & CI/CD
 ![GitHub Actions](https://img.shields.io/badge/GitHub%20Actions-2088FF?style=flat-square&logo=github-actions&logoColor=white)
 ![AWS CodePipeline](https://img.shields.io/badge/CodePipeline-FF9900?style=flat-square&logo=amazonaws&logoColor=white)
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
+![Kubernetes](https://img.shields.io/badge/Kubernetes-326CE5?style=flat-square&logo=kubernetes&logoColor=white)
 ![Nginx](https://img.shields.io/badge/Nginx-009639?style=flat-square&logo=nginx&logoColor=white)
 ![Linux](https://img.shields.io/badge/Linux-FCC624?style=flat-square&logo=linux&logoColor=black)
 ![Bash](https://img.shields.io/badge/Bash-4EAA25?style=flat-square&logo=gnubash&logoColor=white)
 
-### 💻 Languages & Frameworks
+### 💻 Languages
 ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
-![Django](https://img.shields.io/badge/Django-092E20?style=flat-square&logo=django&logoColor=white)
-![Flask](https://img.shields.io/badge/Flask-000000?style=flat-square&logo=flask&logoColor=white)
+![Bash](https://img.shields.io/badge/Bash-4EAA25?style=flat-square&logo=gnubash&logoColor=white)
+![SQL](https://img.shields.io/badge/SQL-4479A1?style=flat-square&logo=mysql&logoColor=white)
 ![Java](https://img.shields.io/badge/Java-ED8B00?style=flat-square&logo=openjdk&logoColor=white)
 ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)
-![React](https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB)
-![SQL](https://img.shields.io/badge/SQL-4479A1?style=flat-square&logo=mysql&logoColor=white)
 
-### 🗄️ Databases & Analytics
+### 🗄️ Databases & Monitoring
 ![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=flat-square&logo=mysql&logoColor=white)
 ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-316192?style=flat-square&logo=postgresql&logoColor=white)
 ![MongoDB](https://img.shields.io/badge/MongoDB-4EA94B?style=flat-square&logo=mongodb&logoColor=white)
-![Snowflake](https://img.shields.io/badge/Snowflake-29B5E8?style=flat-square&logo=snowflake&logoColor=white)
-![Power BI](https://img.shields.io/badge/Power%20BI-F2C811?style=flat-square&logo=powerbi&logoColor=black)
-![Pandas](https://img.shields.io/badge/Pandas-150458?style=flat-square&logo=pandas&logoColor=white)
+![Redis](https://img.shields.io/badge/Redis-DC382D?style=flat-square&logo=redis&logoColor=white)
+![RabbitMQ](https://img.shields.io/badge/RabbitMQ-FF6600?style=flat-square&logo=rabbitmq&logoColor=white)
+![CloudWatch](https://img.shields.io/badge/CloudWatch-FF9900?style=flat-square&logo=amazonaws&logoColor=white)
 
 ---
 
 ## 🚀 Featured Projects
 
-### ☁️ Cloud-Based Food Delivery System
-> **Django · AWS EC2 · Azure Web App · MySQL · Nginx · Gunicorn · GitHub Actions**
-
-A production-grade, full-stack food ordering and delivery platform showcasing **multi-cloud deployment architecture**.
-
-- 🍽️ Built end-to-end user, restaurant, and delivery-agent workflows — menus, cart, orders, and real-time tracking
-- 🏗️ Deployed simultaneously on **AWS EC2 (IaaS)** with Nginx + Gunicorn, and **Azure Web App (PaaS)** with GitHub CI/CD
-- 🗄️ Shared **Azure MySQL Flexible Server** backend maintains consistent schema and migrations across both clouds
-- 🔐 Secured with `.env` configs, IAM roles, Security Groups, TLS via Certbot, and firewall rules
-- ⚙️ Automated server bootstrapping: virtual environments, NGINX config, domain setup, and TLS certificates
-
-[![Blog Post](https://img.shields.io/badge/📖%20Read%20Blog-uwm--cloudblog.net-58a6ff?style=flat-square)](https://uwm-cloudblog.net/general/deployment-of-a-food-delivery-system-using-iaas-and-paas/)
-
----
-
-### 🏗️ RoboShop Full Production Infrastructure — 10-Layer Terraform Architecture
+### 🏗️ RoboShop — Full Production Infrastructure (10-Layer Terraform Architecture)
 > **Terraform · AWS VPC/EC2/ALB/ASG/CloudFront/ACM/SSM · Ansible · Route53**
 
-Enterprise-grade IaC implementation with zero hardcoded values and fully hands-free provisioning.
+A fully automated, zero-touch AWS production environment built across 10 independently managed infrastructure layers — security enforced at every level.
 
-- 🔧 Architected **10 independently state-managed Terraform layers** with S3 remote backends; cross-layer references via SSM Parameter Store
-- 🤖 Self-bootstrapping Bastion auto-applies DB/service Terraform layers on first boot and triggers Ansible playbooks — zero manual steps
-- 📦 Deployed 6 app services via a single `for_each` loop driving AMI baking, Launch Templates, ASGs with rolling refresh, and CPU-based autoscaling
-- 🔒 Secured with wildcard ACM cert, TLS 1.3 ALB, and CloudFront with optimized caching for static assets
+- 🔒 Security-first design: least-privilege network policies across all services, credentials managed through a centralized parameter store with zero values written to code, all public traffic encrypted with TLS at the edge
+- 🤖 Self-bootstrapping entry point that automatically provisions databases, bakes service images, configures all application services via Ansible, and deploys behind an auto-scaling load-balanced architecture — fully hands-free from first boot to live production
+- 📦 6 application services deployed through a single parameterized loop driving AMI baking, Launch Templates, Auto Scaling Groups with rolling refresh, and ALB listener rules
+- 🌐 Public endpoint secured with a managed wildcard certificate, TLS-enforced load balancer, and a CDN layer with intelligent caching for static assets and direct pass-through for API traffic
 
 [![GitHub](https://img.shields.io/badge/GitHub-View%20Repo-181717?style=flat-square&logo=github)](https://github.com/AnuragBojja/Terraform-RoboShop-Main.git)
 
 ---
 
-### 🎭 RoboShop Infrastructure Automation — Ansible Roles Architecture
-> **Ansible · AWS EC2/Route53 · SSM · Jinja2 · amazon.aws**
+### 🎭 RoboShop — Configuration Management (Ansible Roles Architecture)
+> **Ansible · AWS EC2/Route53 · SSM Parameter Store · Jinja2 · amazon.aws**
 
-A clean, reusable Ansible Roles architecture replacing flat per-service playbooks.
+A unified configuration management system for a 10-service polyglot platform — any service deploys through a single parameterized command, secrets never leave the secrets store.
 
-- 🔄 Any service deploys with **one command** using `$service_name` parameterization — zero code duplication across 10 roles
-- 🔑 Integrated **AWS SSM Parameter Store** for secrets (SSH passwords, MySQL creds) via `amazon.aws` lookup plugin
-- 📄 All systemd unit files and Nginx configs rendered as **Jinja2 templates** for full flexibility
+- 🔑 Eliminated credential exposure across all configuration workflows — passwords and access keys resolved at runtime from AWS SSM Parameter Store, never stored in playbooks or version control
+- 📄 All service and proxy configurations standardized as dynamic templates rendered at deploy time, ensuring environment-specific values are injected consistently and eliminating configuration drift
+- ♻️ Shared setup logic defined once and inherited across all services — zero code duplication regardless of runtime or dependency stack
 
 [![GitHub](https://img.shields.io/badge/GitHub-View%20Repo-181717?style=flat-square&logo=github)](https://github.com/AnuragBojja/ansible-roboshop-roles.git)
 
 ---
 
-### 🐚 RoboShop Microservices Deployment Automation — Shell Common Library
+### 🐚 RoboShop — Infrastructure Automation (Shell Common Library)
 > **Bash · AWS EC2/CLI · Route53 · Node.js · Java/Maven · Python**
 
-Modular Bash automation for a 10-service polyglot e-commerce platform.
+Modular Bash automation for a 10-service polyglot e-commerce platform — 13 scripts refactored into a shared library, reducing per-service deployment code by over 85%.
 
-- 📜 Authored **13 modular Bash scripts**; refactored into `common.sh` library reducing each service script from ~70 lines to **< 10**
-- ☁️ Automated EC2 provisioning and Route53 DNS registration via **AWS CLI**
-- 🛡️ Implemented `set -euo pipefail`, `trap ERR`, `VALIDATOR()`, and idempotent service/DB creation throughout
+- 🛡️ Idempotent design throughout — every script safely re-runnable with existing state detection for users, databases, and services
+- ☁️ EC2 provisioning and Route53 DNS registration fully automated via AWS CLI, with centralized logging and structured error handling across all scripts
 
 [![GitHub](https://img.shields.io/badge/GitHub-View%20Repo-181717?style=flat-square&logo=github)](https://github.com/AnuragBojja/shell-common.git)
+
+---
+
+### ☁️ Cloud-Based Food Delivery System (Multi-Cloud)
+> **Django · AWS EC2 · Azure Web App · MySQL · Nginx · Gunicorn · GitHub Actions**
+
+The same application deployed simultaneously on AWS (IaaS) and Azure (PaaS), comparing infrastructure control, scalability behavior, and operational overhead across both cloud models.
+
+- 🔐 Hardened both deployments with automated CI/CD pipelines, TLS termination, IAM-scoped access controls, and strict network policies — no database or internal service exposed to the public internet
+- 🗄️ Shared Azure MySQL backend maintains consistent schema and data across both cloud environments
+
+[![Blog Post](https://img.shields.io/badge/📖%20Read%20Blog-uwm--cloudblog.net-58a6ff?style=flat-square)](https://uwm-cloudblog.net/general/deployment-of-a-food-delivery-system-using-iaas-and-paas/)
 
 ---
 
@@ -136,7 +138,7 @@ Modular Bash automation for a 10-service polyglot e-commerce platform.
 <td>
 <strong>Review Analysis Using Web Scraping in Python</strong><br/>
 <em>Springer ICDSAI 2023 — 2nd International Conference on Data Science & Artificial Intelligence</em><br/>
-Built an end-to-end NLP sentiment analysis pipeline using Python, BeautifulSoup, Selenium, NLTK, spaCy, and AWS EC2. Applied TF-IDF + supervised ML models (Naive Bayes, Logistic Regression, SVM) for e-commerce review classification.<br/>
+Designed and deployed an end-to-end sentiment classification pipeline — scraping and preprocessing large volumes of e-commerce reviews, training and evaluating multiple ML models through cross-validation and confusion matrix analysis, and deploying the complete system as a Flask web application on AWS for real-time sentiment prediction.<br/>
 <a href="https://link.springer.com/chapter/10.1007/978-3-031-51167-7_77">
   <img src="https://img.shields.io/badge/Springer-View%20Publication-00629B?style=flat-square&logo=springer&logoColor=white" />
 </a>
@@ -146,13 +148,19 @@ Built an end-to-end NLP sentiment analysis pipeline using Python, BeautifulSoup,
 
 ---
 
-## 📊 GitHub Stats
+## 💡 Currently Focused On
 
-<!-- <div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=AnuragBojja&theme=github_dark&hide_border=true&include_all_commits=true&count_private=true&show_icons=true" height="165" />
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=AnuragBojja&theme=github-dark-blue&hide_border=true" height="165" />
-</div> -->
+```text
+✦  DevSecOps engineering — security embedded at the infrastructure level
+✦  Advanced AWS production patterns — multi-layer IaC, AMI baking, ASG strategies
+✦  Secrets management & least-privilege access design
+✦  Container security & Kubernetes hardening
+✦  Open to DevSecOps / Cloud Engineer roles
+```
+
 ---
+
+## 📊 GitHub Activity
 
 <div align="center">
   <img src="https://github-readme-streak-stats.herokuapp.com/?user=AnuragBojja&hide_border=true&theme=github-dark" height="150" />
@@ -161,17 +169,6 @@ Built an end-to-end NLP sentiment analysis pipeline using Python, BeautifulSoup,
 <div align="center">
   <a href="https://github.com/AnuragBojja?tab=repositories">View all repositories →</a>
 </div>
----
-
-## 💡 Currently Focused On
-
-```text
-✦  Advanced SQL & Query Optimization
-✦  Python for Data Engineering & Analytics  
-✦  AWS + Terraform + Ansible Production Patterns
-✦  Real-world Cloud Infrastructure Projects
-✦  Geospatial Data Pipelines @ Eco Servants
-```
 
 ---
 
