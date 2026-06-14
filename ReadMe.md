@@ -26,7 +26,7 @@
 
 ```yaml
 name       : Anurag Bojja
-location   : Milwaukee, WI  |  Open to Relocation & Remote
+location   : Los Angeles, CA  |  Open to Relocation & Remote
 education  : M.S. Computer Science — University of Wisconsin–Milwaukee (2023–2025)
 focus      : DevSecOps · Cloud Infrastructure · Infrastructure as Code · Secure CI/CD
 research   : Published @ Springer ICDSAI 2023 — NLP Sentiment Analysis
