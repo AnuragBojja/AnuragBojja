@@ -28,10 +28,12 @@
 name       : Anurag Bojja
 location   : Los Angeles, CA  |  Open to Relocation & Remote
 education  : M.S. Computer Science — University of Wisconsin–Milwaukee (2023–2025)
-focus      : DevSecOps · Cloud Infrastructure · Infrastructure as Code · Secure CI/CD
+focus      : DevSecOps · Cloud Infrastructure · Container Orchestration · Secure CI/CD
 research   : Published @ Springer ICDSAI 2023 — NLP Sentiment Analysis
 goal       : DevSecOps / Cloud Engineer roles where security and automation are one discipline
 ```
+
+DevSecOps & Cloud Engineer with 2+ years of experience building, automating, and securing production cloud infrastructure across AWS and Azure. Architected zero-touch, self-healing systems where security is structural — least-privilege access, centralized secrets management, and encryption in transit as baseline standards. Strong hands-on background in container orchestration with Docker and Kubernetes, infrastructure as code with Terraform and Ansible, and multi-cloud deployment strategy.
 
 ---
 
@@ -50,12 +52,19 @@ goal       : DevSecOps / Cloud Engineer roles where security and automation are 
 ![TLS](https://img.shields.io/badge/TLS%2FSSL-005C99?style=flat-square&logo=letsencrypt&logoColor=white)
 ![ACM](https://img.shields.io/badge/ACM-FF9900?style=flat-square&logo=amazonaws&logoColor=white)
 ![SecurityGroups](https://img.shields.io/badge/Network%20Segmentation-1a3a5c?style=flat-square&logo=amazonaws&logoColor=white)
+![RBAC](https://img.shields.io/badge/RBAC-326CE5?style=flat-square&logo=kubernetes&logoColor=white)
+![IRSA](https://img.shields.io/badge/IRSA%2FOIDC-FF9900?style=flat-square&logo=amazonaws&logoColor=white)
+
+### 🐳 Containers & Orchestration
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
+![Kubernetes](https://img.shields.io/badge/Kubernetes-326CE5?style=flat-square&logo=kubernetes&logoColor=white)
+![Helm](https://img.shields.io/badge/Helm-0F1689?style=flat-square&logo=helm&logoColor=white)
+![Alpine](https://img.shields.io/badge/Alpine%20Linux-0D597F?style=flat-square&logo=alpinelinux&logoColor=white)
+![kubectl](https://img.shields.io/badge/kubectl-326CE5?style=flat-square&logo=kubernetes&logoColor=white)
 
 ### ⚙️ DevOps & CI/CD
 ![GitHub Actions](https://img.shields.io/badge/GitHub%20Actions-2088FF?style=flat-square&logo=github-actions&logoColor=white)
 ![AWS CodePipeline](https://img.shields.io/badge/CodePipeline-FF9900?style=flat-square&logo=amazonaws&logoColor=white)
-![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
-![Kubernetes](https://img.shields.io/badge/Kubernetes-326CE5?style=flat-square&logo=kubernetes&logoColor=white)
 ![Nginx](https://img.shields.io/badge/Nginx-009639?style=flat-square&logo=nginx&logoColor=white)
 ![Linux](https://img.shields.io/badge/Linux-FCC624?style=flat-square&logo=linux&logoColor=black)
 ![Bash](https://img.shields.io/badge/Bash-4EAA25?style=flat-square&logo=gnubash&logoColor=white)
@@ -66,6 +75,7 @@ goal       : DevSecOps / Cloud Engineer roles where security and automation are 
 ![SQL](https://img.shields.io/badge/SQL-4479A1?style=flat-square&logo=mysql&logoColor=white)
 ![Java](https://img.shields.io/badge/Java-ED8B00?style=flat-square&logo=openjdk&logoColor=white)
 ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)
+![NodeJS](https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=node.js&logoColor=white)
 
 ### 🗄️ Databases & Monitoring
 ![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=flat-square&logo=mysql&logoColor=white)
@@ -79,52 +89,52 @@ goal       : DevSecOps / Cloud Engineer roles where security and automation are 
 
 ## 🚀 Featured Projects
 
-### 🏗️ RoboShop — Full Production Infrastructure (10-Layer Terraform Architecture)
-> **Terraform · AWS VPC/EC2/ALB/ASG/CloudFront/ACM/SSM · Ansible · Route53**
+### 🏗️ Production Microservices Infrastructure — 10-Layer IaC Architecture
+> **Terraform · Ansible · AWS VPC/EC2/ALB/ASG/CloudFront/ACM/SSM · Route53 · Jinja2**
 
-A fully automated, zero-touch AWS production environment built across 10 independently managed infrastructure layers — security enforced at every level.
+A fully automated, zero-touch production environment built across 10 independently managed infrastructure layers — security enforced at every level, with Ansible providing configuration management on top.
 
 - 🔒 Security-first design: least-privilege network policies across all services, credentials managed through a centralized parameter store with zero values written to code, all public traffic encrypted with TLS at the edge
-- 🤖 Self-bootstrapping entry point that automatically provisions databases, bakes service images, configures all application services via Ansible, and deploys behind an auto-scaling load-balanced architecture — fully hands-free from first boot to live production
+- 🤖 Self-bootstrapping entry point that automatically provisions databases, bakes service images, configures all application services, and deploys behind an auto-scaling load-balanced architecture — fully hands-free from first boot to live production
 - 📦 6 application services deployed through a single parameterized loop driving AMI baking, Launch Templates, Auto Scaling Groups with rolling refresh, and ALB listener rules
-- 🌐 Public endpoint secured with a managed wildcard certificate, TLS-enforced load balancer, and a CDN layer with intelligent caching for static assets and direct pass-through for API traffic
+- ♻️ Ansible configuration layer where any service deploys through a single parameterized command using Jinja2 templates and runtime secret resolution — eliminating drift and credential exposure
 
-[![GitHub](https://img.shields.io/badge/GitHub-View%20Repo-181717?style=flat-square&logo=github)](https://github.com/AnuragBojja/Terraform-RoboShop-Main.git)
-
----
-
-### 🎭 RoboShop — Configuration Management (Ansible Roles Architecture)
-> **Ansible · AWS EC2/Route53 · SSM Parameter Store · Jinja2 · amazon.aws**
-
-A unified configuration management system for a 10-service polyglot platform — any service deploys through a single parameterized command, secrets never leave the secrets store.
-
-- 🔑 Eliminated credential exposure across all configuration workflows — passwords and access keys resolved at runtime from AWS SSM Parameter Store, never stored in playbooks or version control
-- 📄 All service and proxy configurations standardized as dynamic templates rendered at deploy time, ensuring environment-specific values are injected consistently and eliminating configuration drift
-- ♻️ Shared setup logic defined once and inherited across all services — zero code duplication regardless of runtime or dependency stack
-
-[![GitHub](https://img.shields.io/badge/GitHub-View%20Repo-181717?style=flat-square&logo=github)](https://github.com/AnuragBojja/ansible-roboshop-roles.git)
+[![Terraform Repo](https://img.shields.io/badge/Terraform%20Repo-181717?style=flat-square&logo=github)](https://github.com/AnuragBojja/Terraform-RoboShop-Main)
+[![Ansible Repo](https://img.shields.io/badge/Ansible%20Repo-181717?style=flat-square&logo=github)](https://github.com/AnuragBojja/ansible-roboshop-roles)
 
 ---
 
-### 🐚 RoboShop — Infrastructure Automation (Shell Common Library)
-> **Bash · AWS EC2/CLI · Route53 · Node.js · Java/Maven · Python**
+### 🐳 Containerized Microservices Platform — Kubernetes Orchestration & Helm Packaging
+> **Docker · Kubernetes · Helm · kubectl · Alpine Linux · ConfigMaps · StatefulSets · HPA · PV/PVC · RBAC**
 
-Modular Bash automation for a 10-service polyglot e-commerce platform — 13 scripts refactored into a shared library, reducing per-service deployment code by over 85%.
+Containerized and orchestrated a 10-service polyglot microservices platform end-to-end — from optimized Docker images through production-grade Kubernetes deployments to reusable Helm charts.
 
-- 🛡️ Idempotent design throughout — every script safely re-runnable with existing state detection for users, databases, and services
-- ☁️ EC2 provisioning and Route53 DNS registration fully automated via AWS CLI, with centralized logging and structured error handling across all scripts
+- 🐳 Built optimized Docker images for all 10 services using multi-stage builds, Alpine base images, and non-root user enforcement — eliminating build-time tooling from runtime containers
+- ☸️ Deployed services to a managed Kubernetes cluster using Deployments for stateless workloads, StatefulSets with persistent storage for databases, ConfigMaps for environment-driven configuration, and HPA for traffic-driven scaling
+- 🔐 Implemented RBAC with role and role-binding configurations, IRSA-based pod-to-cloud authentication via OIDC, and liveness/readiness probes with appropriate thresholds per service type
+- ⎈ Packaged the entire deployment as reusable Helm charts with values-driven templating, enabling environment-specific deployments without code duplication
 
-[![GitHub](https://img.shields.io/badge/GitHub-View%20Repo-181717?style=flat-square&logo=github)](https://github.com/AnuragBojja/shell-common.git)
+**Docker Repos:**
+[![Docker Files](https://img.shields.io/badge/docker--files-181717?style=flat-square&logo=github)](https://github.com/AnuragBojja/docker-files)
+[![Docker Compress](https://img.shields.io/badge/docker--compress-181717?style=flat-square&logo=github)](https://github.com/AnuragBojja/docker-compress)
+
+**Kubernetes Repos:**
+[![kubectl](https://img.shields.io/badge/kubectl-181717?style=flat-square&logo=github)](https://github.com/AnuragBojja/kubectl)
+[![eksctl](https://img.shields.io/badge/eksctl-181717?style=flat-square&logo=github)](https://github.com/AnuragBojja/eksctl)
+[![kube-roboshop](https://img.shields.io/badge/kube--roboshop-181717?style=flat-square&logo=github)](https://github.com/AnuragBojja/kube-roboshop)
+[![kube-roboshop-vol](https://img.shields.io/badge/kube--roboshop--vol-181717?style=flat-square&logo=github)](https://github.com/AnuragBojja/kube-roboshop-vol)
+[![k8s-HELM-roboshop](https://img.shields.io/badge/k8s--HELM--roboshop-181717?style=flat-square&logo=github)](https://github.com/AnuragBojja/k8s-HELM-roboshop)
+[![k8-ingress](https://img.shields.io/badge/k8--ingress-181717?style=flat-square&logo=github)](https://github.com/AnuragBojja/k8-ingress)
+[![k8-rbac](https://img.shields.io/badge/k8--rbac-181717?style=flat-square&logo=github)](https://github.com/AnuragBojja/k8-rbac)
 
 ---
 
-### ☁️ Cloud-Based Food Delivery System (Multi-Cloud)
+### ☁️ Multi-Cloud Deployment Strategy — IaaS vs PaaS Architecture
 > **Django · AWS EC2 · Azure Web App · MySQL · Nginx · Gunicorn · GitHub Actions**
 
-The same application deployed simultaneously on AWS (IaaS) and Azure (PaaS), comparing infrastructure control, scalability behavior, and operational overhead across both cloud models.
+Deployed the application across AWS (IaaS) and Azure (PaaS) in a multi-cloud architecture, reducing single-provider dependency and improving disaster recovery posture against regional outages, provider-level service degradations, and vendor lock-in risks.
 
-- 🔐 Hardened both deployments with automated CI/CD pipelines, TLS termination, IAM-scoped access controls, and strict network policies — no database or internal service exposed to the public internet
-- 🗄️ Shared Azure MySQL backend maintains consistent schema and data across both cloud environments
+- 🔐 Hardened both deployments through automated CI/CD pipelines, TLS termination, IAM-scoped access controls, and strict network policies — ensuring no database or internal service was exposed to the public internet
 
 [![Blog Post](https://img.shields.io/badge/📖%20Read%20Blog-uwm--cloudblog.net-58a6ff?style=flat-square)](https://uwm-cloudblog.net/general/deployment-of-a-food-delivery-system-using-iaas-and-paas/)
 
@@ -152,9 +162,9 @@ Designed and deployed an end-to-end sentiment classification pipeline — scrapi
 
 ```text
 ✦  DevSecOps engineering — security embedded at the infrastructure level
+✦  Production Kubernetes patterns — StatefulSets, RBAC, IRSA, Ingress
 ✦  Advanced AWS production patterns — multi-layer IaC, AMI baking, ASG strategies
-✦  Secrets management & least-privilege access design
-✦  Container security & Kubernetes hardening
+✦  Helm chart design and reusable deployment packaging
 ✦  Open to DevSecOps / Cloud Engineer roles
 ```
 
