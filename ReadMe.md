@@ -261,7 +261,7 @@ Deployed the application across AWS (IaaS) and Azure (PaaS) in a multi-cloud arc
 - Automate operational workflows with Python-based tools for dynamic Ansible inventory management, AWS Lambda monitoring scripts, and API integrations across the DevOps toolchain — reducing manual effort across large-scale Linux and Kubernetes environments supporting Spectrum's cable, broadband, and CPE provisioning systems.
 
 ### Applications & Cloud Engineer Intern | Vesonix TechLabs
-*January 2022 – August 2023 · Hyderabad, India*
+*June 2022 – August 2023 · Hyderabad, India*
 
 - Built and maintained Docker images for internal microservices using multi-stage builds and minimal Alpine base images — reducing image sizes and streamlining deployments across development and staging environments.
 - Deployed Kubernetes workloads on development and staging clusters — configuring application deployments, service networking, configuration management, and traffic routing, monitoring application health, and resolving container-level failures during active release cycles.
