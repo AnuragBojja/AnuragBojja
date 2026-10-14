@@ -6,9 +6,6 @@
   <a href="mailto:anuragbojja23@gmail.com">
     <img src="https://img.shields.io/badge/Email-anuragbojja23%40gmail.com-0d1117?style=flat-square&logo=gmail&logoColor=EA4335&labelColor=161b22" />
   </a>
-  <a href="https://www.linkedin.com/in/anurag-bojja-81a405192/">
-    <img src="https://img.shields.io/badge/LinkedIn-Anurag%20Bojja-0d1117?style=flat-square&logo=linkedin&logoColor=0A66C2&labelColor=161b22" />
-  </a>
   <a href="https://anuragbojja.github.io/">
     <img src="https://img.shields.io/badge/Portfolio-Visit%20Website-0d1117?style=flat-square&logo=vercel&logoColor=fff&labelColor=161b22" />
   </a>
