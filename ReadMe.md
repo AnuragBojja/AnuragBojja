@@ -5,7 +5,7 @@
 <p align="center"><strong>Cloud DevOps Engineer | AWS &amp; GCP | Terraform | Kubernetes | CI/CD</strong></p>
 
 <p>
-  <a href="mailto:anuragbojja23@gmail.com">
+  <a href="mailto:anuragbojja329@gmail.com">
     <img src="https://img.shields.io/badge/Email-anuragbojja23%40gmail.com-0d1117?style=flat-square&logo=gmail&logoColor=EA4335&labelColor=161b22" />
   </a>
   <a href="https://www.linkedin.com/in/anurag-bojja-81a405192/">
