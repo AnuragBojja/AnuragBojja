@@ -2,6 +2,8 @@
 
 <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0d1117,50:1a3a5c,100:0d1117&height=160&section=header&text=Anurag%20Bojja&fontSize=50&fontColor=58a6ff&fontAlignY=40" />
 
+<p align="center"><strong>Cloud DevOps Engineer | AWS &amp; GCP | Terraform | Kubernetes | CI/CD</strong></p>
+
 <p>
   <a href="mailto:anuragbojja23@gmail.com">
     <img src="https://img.shields.io/badge/Email-anuragbojja23%40gmail.com-0d1117?style=flat-square&logo=gmail&logoColor=EA4335&labelColor=161b22" />
@@ -26,128 +28,105 @@
 
 ```yaml
 name       : Anurag Bojja
+title      : Cloud DevOps Engineer
 location   : Los Angeles, CA  |  Open to Relocation & Remote
-education  : M.S. Computer Science — University of Wisconsin–Milwaukee (2023–2025)
-focus      : DevOps · Cloud Infrastructure · Container Orchestration · Secure CI/CD
-research   : Published @ Springer ICDSAI 2023 — NLP Sentiment Analysis
-goal       : DevOps · Cloud · SRE roles where security and automation are one discipline
+experience : 3 years
+education  : M.S. Computer Science — University of Wisconsin–Milwaukee
+focus      : AWS & GCP · Infrastructure as Code · CI/CD · Kubernetes · Cloud Operations
+research   : Springer ICDSAI 2023 — NLP Sentiment Analysis
+goal       : Cloud Engineering · DevOps Engineering · Secure, Reliable Cloud Operations
 ```
 
-DevOps & Cloud Engineer with 4+ years of experience delivering production-grade infrastructure on AWS, Azure, and GCP. Design and automate complete cloud environments from network architecture and IAM design through container orchestration, CI/CD delivery, and integrated observability. Bring a security-first mindset to every layer of the stack, treating least-privilege access, centralized secrets management, and encryption in transit as baseline defaults.
+Cloud DevOps Engineer with **3 years of experience** supporting **AWS and GCP infrastructure**, CI/CD automation, and containerized applications across financial services, SaaS, and e-commerce environments. Hands-on with **Terraform, Docker, Kubernetes, Jenkins, GitHub Actions, Helm, and Argo CD** for infrastructure provisioning and application delivery. Skilled in **Python, Bash, Linux, cloud monitoring, and deployment troubleshooting**, with an emphasis on reliable production operations, repeatable configurations, and least-privilege security practices.
 
 ---
 
 ## 🛠️ Tech Stack
 
-### ☁️ Cloud & Infrastructure
+### ☁️ Cloud Platforms & Infrastructure
 
-**AWS**
+**AWS** — EC2, S3, VPC, IAM, EKS, RDS, ELB/ALB, Route 53, CloudWatch, ECR, ACM, Systems Manager (SSM).
+
 ![AWS](https://img.shields.io/badge/AWS-232F3E?style=flat-square&logo=amazonaws&logoColor=FF9900)
 ![EC2](https://img.shields.io/badge/EC2-FF9900?style=flat-square&logo=amazonec2&logoColor=white)
 ![EKS](https://img.shields.io/badge/EKS-FF9900?style=flat-square&logo=amazoneks&logoColor=white)
 ![VPC](https://img.shields.io/badge/VPC-FF9900?style=flat-square&logo=amazonaws&logoColor=white)
-![ALB](https://img.shields.io/badge/ALB-FF9900?style=flat-square&logo=amazonaws&logoColor=white)
-![ASG](https://img.shields.io/badge/ASG-FF9900?style=flat-square&logo=amazonaws&logoColor=white)
 ![RDS](https://img.shields.io/badge/RDS-527FFF?style=flat-square&logo=amazonrds&logoColor=white)
 ![S3](https://img.shields.io/badge/S3-569A31?style=flat-square&logo=amazons3&logoColor=white)
 ![IAM](https://img.shields.io/badge/IAM-232F3E?style=flat-square&logo=amazoniam&logoColor=FF9900)
+![CloudWatch](https://img.shields.io/badge/CloudWatch-FF9900?style=flat-square&logo=amazoncloudwatch&logoColor=white)
+![Route 53](https://img.shields.io/badge/Route%2053-FF9900?style=flat-square&logo=amazonroute53&logoColor=white)
+![ECR](https://img.shields.io/badge/ECR-FF9900?style=flat-square&logo=amazonaws&logoColor=white)
 ![ACM](https://img.shields.io/badge/ACM-FF9900?style=flat-square&logo=amazonaws&logoColor=white)
-![AMI](https://img.shields.io/badge/AMI-FF9900?style=flat-square&logo=amazonaws&logoColor=white)
+![SSM](https://img.shields.io/badge/SSM-FF9900?style=flat-square&logo=amazonaws&logoColor=white)
 
-**Azure**
-![Azure](https://img.shields.io/badge/Azure-0078D4?style=flat-square&logo=microsoftazure&logoColor=white)
-![Azure VMs](https://img.shields.io/badge/Virtual%20Machines-0078D4?style=flat-square&logo=microsoftazure&logoColor=white)
-![AKS](https://img.shields.io/badge/AKS-0078D4?style=flat-square&logo=microsoftazure&logoColor=white)
-![VNet](https://img.shields.io/badge/Virtual%20Network-0078D4?style=flat-square&logo=microsoftazure&logoColor=white)
-![App Gateway](https://img.shields.io/badge/Application%20Gateway-0078D4?style=flat-square&logo=microsoftazure&logoColor=white)
-![VMSS](https://img.shields.io/badge/VM%20Scale%20Sets-0078D4?style=flat-square&logo=microsoftazure&logoColor=white)
-![Azure SQL](https://img.shields.io/badge/Azure%20SQL%20DB-0078D4?style=flat-square&logo=microsoftazure&logoColor=white)
-![Blob Storage](https://img.shields.io/badge/Blob%20Storage-0078D4?style=flat-square&logo=microsoftazure&logoColor=white)
-![Entra ID](https://img.shields.io/badge/Entra%20ID-0078D4?style=flat-square&logo=microsoftazure&logoColor=white)
-![Key Vault Certs](https://img.shields.io/badge/Key%20Vault%20Certs-0078D4?style=flat-square&logo=microsoftazure&logoColor=white)
-![Managed Images](https://img.shields.io/badge/Managed%20Images-0078D4?style=flat-square&logo=microsoftazure&logoColor=white)
+**GCP** — Compute Engine, Cloud Storage, VPC, Cloud IAM, Cloud Run, Cloud Monitoring.
 
-**GCP**
 ![GCP](https://img.shields.io/badge/GCP-4285F4?style=flat-square&logo=googlecloud&logoColor=white)
-![GCE](https://img.shields.io/badge/Compute%20Engine-4285F4?style=flat-square&logo=googlecloud&logoColor=white)
-![GKE](https://img.shields.io/badge/GKE-4285F4?style=flat-square&logo=googlecloud&logoColor=white)
-![GCP VPC](https://img.shields.io/badge/VPC-4285F4?style=flat-square&logo=googlecloud&logoColor=white)
-![Cloud LB](https://img.shields.io/badge/Cloud%20Load%20Balancing-4285F4?style=flat-square&logo=googlecloud&logoColor=white)
-![MIG](https://img.shields.io/badge/Managed%20Instance%20Groups-4285F4?style=flat-square&logo=googlecloud&logoColor=white)
-![Cloud SQL](https://img.shields.io/badge/Cloud%20SQL-4285F4?style=flat-square&logo=googlecloud&logoColor=white)
+![Compute Engine](https://img.shields.io/badge/Compute%20Engine-4285F4?style=flat-square&logo=googlecloud&logoColor=white)
 ![Cloud Storage](https://img.shields.io/badge/Cloud%20Storage-4285F4?style=flat-square&logo=googlecloud&logoColor=white)
+![VPC](https://img.shields.io/badge/VPC-4285F4?style=flat-square&logo=googlecloud&logoColor=white)
 ![Cloud IAM](https://img.shields.io/badge/Cloud%20IAM-4285F4?style=flat-square&logo=googlecloud&logoColor=white)
-![Certificate Manager](https://img.shields.io/badge/Certificate%20Manager-4285F4?style=flat-square&logo=googlecloud&logoColor=white)
-![Custom Images](https://img.shields.io/badge/Custom%20Images-4285F4?style=flat-square&logo=googlecloud&logoColor=white)
+![Cloud Run](https://img.shields.io/badge/Cloud%20Run-4285F4?style=flat-square&logo=googlecloud&logoColor=white)
+![Cloud Monitoring](https://img.shields.io/badge/Cloud%20Monitoring-4285F4?style=flat-square&logo=googlecloud&logoColor=white)
 
-### 🧱 Infrastructure as Code & Configuration
+### 🧱 Infrastructure as Code & Configuration Management
 ![Terraform](https://img.shields.io/badge/Terraform-844FBA?style=flat-square&logo=terraform&logoColor=white)
+![Terraform Modules](https://img.shields.io/badge/Terraform%20Modules-844FBA?style=flat-square&logo=terraform&logoColor=white)
 ![Ansible](https://img.shields.io/badge/Ansible-EE0000?style=flat-square&logo=ansible&logoColor=white)
 ![CloudFormation](https://img.shields.io/badge/CloudFormation-FF9900?style=flat-square&logo=amazonaws&logoColor=white)
-![Jinja2](https://img.shields.io/badge/Jinja2-B41717?style=flat-square&logo=jinja&logoColor=white)
-![systemd](https://img.shields.io/badge/systemd-1793D1?style=flat-square&logo=linux&logoColor=white)
+![Remote State Management](https://img.shields.io/badge/Remote%20State%20Management-844FBA?style=flat-square&logo=terraform&logoColor=white)
 
 ### 🐳 Containers & Orchestration
 ![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
 ![Kubernetes](https://img.shields.io/badge/Kubernetes-326CE5?style=flat-square&logo=kubernetes&logoColor=white)
 ![Helm](https://img.shields.io/badge/Helm-0F1689?style=flat-square&logo=helm&logoColor=white)
-![Alpine](https://img.shields.io/badge/Alpine%20Linux-0D597F?style=flat-square&logo=alpinelinux&logoColor=white)
-![kubectl](https://img.shields.io/badge/kubectl-326CE5?style=flat-square&logo=kubernetes&logoColor=white)
-![eksctl](https://img.shields.io/badge/eksctl-FF9900?style=flat-square&logo=amazoneks&logoColor=white)
-![HPA](https://img.shields.io/badge/HPA-326CE5?style=flat-square&logo=kubernetes&logoColor=white)
+![Argo CD](https://img.shields.io/badge/Argo%20CD-EF7B4D?style=flat-square&logo=argo&logoColor=white)
+![GitOps](https://img.shields.io/badge/GitOps-F05032?style=flat-square&logo=git&logoColor=white)
 ![StatefulSets](https://img.shields.io/badge/StatefulSets-326CE5?style=flat-square&logo=kubernetes&logoColor=white)
-![Ingress](https://img.shields.io/badge/Ingress-326CE5?style=flat-square&logo=kubernetes&logoColor=white)
+![HPA](https://img.shields.io/badge/HPA-326CE5?style=flat-square&logo=kubernetes&logoColor=white)
 
-### ⚙️ CI/CD & Automation
+### ⚙️ CI/CD & Version Control
 ![Jenkins](https://img.shields.io/badge/Jenkins-D24939?style=flat-square&logo=jenkins&logoColor=white)
-![Groovy](https://img.shields.io/badge/Groovy%20Shared%20Library-4298B8?style=flat-square&logo=apachegroovy&logoColor=white)
-![GitHub Actions](https://img.shields.io/badge/GitHub%20Actions-2088FF?style=flat-square&logo=github-actions&logoColor=white)
-![AWS CodePipeline](https://img.shields.io/badge/CodePipeline-FF9900?style=flat-square&logo=amazonaws&logoColor=white)
-![Bash](https://img.shields.io/badge/Bash-4EAA25?style=flat-square&logo=gnubash&logoColor=white)
-
-### 🔒 Security & Compliance
-![SonarQube](https://img.shields.io/badge/SonarQube%20%28SAST%29-4E9BCD?style=flat-square&logo=sonarqube&logoColor=white)
-![DAST](https://img.shields.io/badge/DAST-D82C20?style=flat-square&logo=owasp&logoColor=white)
-![Trivy](https://img.shields.io/badge/Trivy-1904DA?style=flat-square&logo=aquasecurity&logoColor=white)
-![Dependabot](https://img.shields.io/badge/Dependabot-025E8C?style=flat-square&logo=dependabot&logoColor=white)
-![Quality Gates](https://img.shields.io/badge/Quality%20Gates-4E9BCD?style=flat-square&logo=sonarqube&logoColor=white)
-![IAM](https://img.shields.io/badge/IAM%20Least--Privilege-232F3E?style=flat-square&logo=amazonaws&logoColor=FF9900)
-![Secrets](https://img.shields.io/badge/Secrets%20Management-232F3E?style=flat-square&logo=amazonaws&logoColor=FF9900)
-![TLS](https://img.shields.io/badge/TLS%2FSSL-005C99?style=flat-square&logo=letsencrypt&logoColor=white)
-![ACM](https://img.shields.io/badge/ACM-FF9900?style=flat-square&logo=amazonaws&logoColor=white)
-![SGs](https://img.shields.io/badge/Network%20Segmentation-1a3a5c?style=flat-square&logo=amazonaws&logoColor=white)
-![VPCPeering](https://img.shields.io/badge/VPC%20Peering-FF9900?style=flat-square&logo=amazonaws&logoColor=white)
-![OpenVPN](https://img.shields.io/badge/OpenVPN-EA7E20?style=flat-square&logo=openvpn&logoColor=white)
-![RBAC](https://img.shields.io/badge/RBAC-326CE5?style=flat-square&logo=kubernetes&logoColor=white)
-![IRSA](https://img.shields.io/badge/IRSA%2FOIDC-FF9900?style=flat-square&logo=amazonaws&logoColor=white)
-
-### 🌐 Web & Runtime
-![Nginx](https://img.shields.io/badge/Nginx-009639?style=flat-square&logo=nginx&logoColor=white)
-![Gunicorn](https://img.shields.io/badge/Gunicorn-499848?style=flat-square&logo=gunicorn&logoColor=white)
-![Linux](https://img.shields.io/badge/Linux-FCC624?style=flat-square&logo=linux&logoColor=black)
-![systemd](https://img.shields.io/badge/systemd-1793D1?style=flat-square&logo=linux&logoColor=white)
-
-### 💻 Languages
-![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
-![Bash](https://img.shields.io/badge/Bash-4EAA25?style=flat-square&logo=gnubash&logoColor=white)
-![SQL](https://img.shields.io/badge/SQL-4479A1?style=flat-square&logo=mysql&logoColor=white)
-![Java](https://img.shields.io/badge/Java-ED8B00?style=flat-square&logo=openjdk&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)
-![NodeJS](https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=node.js&logoColor=white)
-![Groovy](https://img.shields.io/badge/Groovy-4298B8?style=flat-square&logo=apachegroovy&logoColor=white)
-
-### 🗄️ Databases & Messaging
-![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=flat-square&logo=mysql&logoColor=white)
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-316192?style=flat-square&logo=postgresql&logoColor=white)
-![MongoDB](https://img.shields.io/badge/MongoDB-4EA94B?style=flat-square&logo=mongodb&logoColor=white)
-![Redis](https://img.shields.io/badge/Redis-DC382D?style=flat-square&logo=redis&logoColor=white)
-![RabbitMQ](https://img.shields.io/badge/RabbitMQ-FF6600?style=flat-square&logo=rabbitmq&logoColor=white)
-
-### 🔧 Frameworks & Version Control
-![Django](https://img.shields.io/badge/Django-092E20?style=flat-square&logo=django&logoColor=white)
-![Flask](https://img.shields.io/badge/Flask-000000?style=flat-square&logo=flask&logoColor=white)
+![GitHub Actions](https://img.shields.io/badge/GitHub%20Actions-2088FF?style=flat-square&logo=githubactions&logoColor=white)
 ![Git](https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white)
 ![GitHub](https://img.shields.io/badge/GitHub-181717?style=flat-square&logo=github&logoColor=white)
+![Groovy](https://img.shields.io/badge/Groovy-4298B8?style=flat-square&logo=apachegroovy&logoColor=white)
+![SonarQube](https://img.shields.io/badge/SonarQube-4E9BCD?style=flat-square&logo=sonarqube&logoColor=white)
+
+### 🔒 Security & DevSecOps
+![Trivy](https://img.shields.io/badge/Trivy-1904DA?style=flat-square&logo=aquasecurity&logoColor=white)
+![SAST](https://img.shields.io/badge/SAST-D82C20?style=flat-square&logo=owasp&logoColor=white)
+![DAST](https://img.shields.io/badge/DAST-D82C20?style=flat-square&logo=owasp&logoColor=white)
+![Vulnerability Scanning](https://img.shields.io/badge/Vulnerability%20Scanning-1904DA?style=flat-square&logo=aquasecurity&logoColor=white)
+![Secrets Management](https://img.shields.io/badge/Secrets%20Management-232F3E?style=flat-square&logo=amazonaws&logoColor=white)
+![Kubernetes RBAC](https://img.shields.io/badge/Kubernetes%20RBAC-326CE5?style=flat-square&logo=kubernetes&logoColor=white)
+![Least-Privilege IAM](https://img.shields.io/badge/Least--Privilege%20IAM-232F3E?style=flat-square&logo=amazoniam&logoColor=FF9900)
+
+### 📈 Monitoring, Logging & Operations
+![Prometheus](https://img.shields.io/badge/Prometheus-E6522C?style=flat-square&logo=prometheus&logoColor=white)
+![Grafana](https://img.shields.io/badge/Grafana-F46800?style=flat-square&logo=grafana&logoColor=white)
+![CloudWatch](https://img.shields.io/badge/CloudWatch-FF9900?style=flat-square&logo=amazoncloudwatch&logoColor=white)
+![Cloud Monitoring](https://img.shields.io/badge/Cloud%20Monitoring-4285F4?style=flat-square&logo=googlecloud&logoColor=white)
+![Incident Management](https://img.shields.io/badge/Incident%20Management-44546A?style=flat-square&logo=jira&logoColor=white)
+![Root Cause Analysis](https://img.shields.io/badge/Root%20Cause%20Analysis-44546A?style=flat-square&logo=jira&logoColor=white)
+![Jira](https://img.shields.io/badge/Jira-0052CC?style=flat-square&logo=jira&logoColor=white)
+![Confluence](https://img.shields.io/badge/Confluence-172B4D?style=flat-square&logo=confluence&logoColor=white)
+
+**Operational practices:** Log analysis, alerting, deployment validation, rollback procedures, incident investigation, and production troubleshooting.
+
+### 💻 Programming, Operating Systems & Networking
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
+![Bash](https://img.shields.io/badge/Bash-4EAA25?style=flat-square&logo=gnubash&logoColor=white)
+![YAML](https://img.shields.io/badge/YAML-CB171E?style=flat-square&logo=yaml&logoColor=white)
+![Linux](https://img.shields.io/badge/Linux-FCC624?style=flat-square&logo=linux&logoColor=black)
+![Ubuntu](https://img.shields.io/badge/Ubuntu-E95420?style=flat-square&logo=ubuntu&logoColor=white)
+![RHEL](https://img.shields.io/badge/RHEL-EE0000?style=flat-square&logo=redhat&logoColor=white)
+![NGINX](https://img.shields.io/badge/NGINX-009639?style=flat-square&logo=nginx&logoColor=white)
+![AWS CLI](https://img.shields.io/badge/AWS%20CLI-232F3E?style=flat-square&logo=amazonaws&logoColor=FF9900)
+![Google Cloud CLI](https://img.shields.io/badge/Google%20Cloud%20CLI-4285F4?style=flat-square&logo=googlecloud&logoColor=white)
+
+**Networking fundamentals:** TCP/IP, DNS, HTTP/HTTPS, subnetting, routing, and cloud network security.
 
 ---
 
@@ -246,27 +225,42 @@ Deployed the application across AWS (IaaS) and Azure (PaaS) in a multi-cloud arc
 [![Blog Post](https://img.shields.io/badge/📖%20Read%20Blog-uwm--cloudblog.net-58a6ff?style=flat-square)](https://uwm-cloudblog.net/general/deployment-of-a-food-delivery-system-using-iaas-and-paas/)
 
 ---
+## 💼 Professional Experience
 
-## 💼 Experience
+### Cloud DevOps Engineer | Saigon Technology
+*August 2026 – Present*
 
-### DevSecOps & Cloud Engineer | Spectrum (Charter Communications)
-*February 2024 – Present · United States*
+- Maintain **Terraform configurations for AWS infrastructure**, validating plan outputs and reviewing proposed changes before deployment.
+- Update **GitHub Actions workflows for 4 application services**, automating Docker image builds, validation checks, and staging deployments.
+- Troubleshoot **Amazon EKS deployments** using pod events, container logs, and readiness probe results.
+- Configure **Helm values and Argo CD application settings** to keep deployment configurations consistent across environments.
+- Review **Amazon CloudWatch alerts and application logs** to investigate deployment issues and document escalation details.
+- Assist with **GCP Cloud Run releases**, verifying service configurations and checking Cloud Monitoring results.
+- Develop **Python and Bash scripts** for deployment validation, cloud resource checks, and routine operational tasks.
 
-- Architect production-grade AWS infrastructure supporting Spectrum's digital telecommunications platform using Terraform, EKS, ECR, EC2, Route53, CloudFront, S3, RDS, and Fargate — provisioning multi-region, multi-account enterprise cloud environments through custom reusable Infrastructure-as-Code modules that reduce environment onboarding time from days to hours and eliminate configuration drift across development, staging, and production tiers.
-- Orchestrate containerized microservices on Kubernetes (EKS) and Rancher through production workloads, auto-scaling policies, service networking, and identity-based access controls — sustaining high availability across 20+ production services powering customer-facing Spectrum applications while eliminating static credentials from application workloads and enforcing least-privilege access at every layer.
-- Modernize CI/CD delivery workflows with GitLab CI/CD, Jenkins, reusable pipeline libraries, ArgoCD, Docker, Helm, and automated quality gates — supporting 30+ production deployments monthly, accelerating release cycles, and enabling reliable rollback through version-controlled deployment tracking.
-- Fortify cloud and software supply chain security by integrating code and application security scanning (SonarQube, Trivy), automated dependency alerts (Dependabot), least-privilege IAM policies, user permission audits for internal and vendor access, secure credentials management, and encryption in transit as baseline defaults — ensuring no artifact reaches production without passing every security and quality check.
-- Establish end-to-end observability using Splunk, Datadog, Prometheus, and Grafana — building custom dashboards and alerting rules tracking node resource utilization, application health, auto-scaling behavior, Kafka consumer lag, and centralized log aggregation across containerized environments — accelerating incident triage and enabling proactive detection of resource pressure before it impacts customer services.
-- Integrate ArgoCD automated deployment synchronization for continuous Kubernetes delivery across multi-environment enterprise cloud landing zones — treating version control as the single source of truth, eliminating manual deployment steps, and enforcing infrastructure-as-code guardrails across teams.
-- Automate operational workflows with Python-based tools for dynamic Ansible inventory management, AWS Lambda monitoring scripts, and API integrations across the DevOps toolchain — reducing manual effort across large-scale Linux and Kubernetes environments supporting Spectrum's cable, broadband, and CPE provisioning systems.
+### DevOps Engineer | Synchrony Financials
+*January 2025 – July 2026*
 
-### Applications & Cloud Engineer Intern | Vesonix TechLabs
-*June 2022 – August 2023 · Hyderabad, India*
+- Developed **Jenkins CI/CD pipelines for 6 applications**, integrating build validation, automated testing, and deployment stages for controlled releases.
+- Maintained reusable **Terraform modules across 3 AWS environments**, standardizing VPC, EC2, and security group configurations.
+- Supported production **Amazon EKS workloads**, troubleshooting failed rollouts, resource constraints, and readiness probe failures.
+- Automated routine Linux administration using **Python and Bash**, reducing manual maintenance verification time by **20%**.
+- Reviewed **AWS IAM permissions and Secrets Manager configurations** with security teams during deployment preparation.
+- Configured **CloudWatch dashboards and alerts** to improve application infrastructure visibility and incident investigation.
+- Assisted with **GCP Compute Engine and Cloud Storage provisioning**, including documentation of networking and access requirements.
+- Coordinated financial application releases, tracking approvals, deployment results, rollback readiness, and support handoffs.
 
-- Built and maintained Docker images for internal microservices using multi-stage builds and minimal Alpine base images — reducing image sizes and streamlining deployments across development and staging environments.
-- Deployed Kubernetes workloads on development and staging clusters — configuring application deployments, service networking, configuration management, and traffic routing, monitoring application health, and resolving container-level failures during active release cycles.
-- Contributed to CI/CD pipelines in GitHub Actions and made small code changes to internal Node.js and Python services — supporting build automation and release-related tooling across the engineering team.
-- Configured non-production AWS infrastructure including IAM policies, security groups, and network segmentation aligned with internal access standards — supporting cloud resource lifecycle through Bash automation scripts.
+### Associate DevOps Engineer | Webkul Software
+*March 2022 – July 2023*
+
+- Assisted with **AWS EC2 provisioning and Linux configuration** for e-commerce applications under senior engineer supervision.
+- Monitored application and infrastructure health through **CloudWatch and Linux logs**, escalating utilization and availability issues.
+- Updated **Jenkins build jobs** and investigated pipeline failures related to dependencies, scripts, and configuration.
+- Built and validated **Docker images** for development workloads, reporting container startup issues to developers.
+- Maintained **Git branches and deployment documentation** supporting code reviews and scheduled storefront releases.
+- Automated Linux log collection and disk-usage checks with **Bash**, saving approximately **2 hours per week**.
+- Assisted with **Terraform changes to AWS networking resources**, validating plans before approved test-environment updates.
+- Supported a **GCP Compute Engine test environment** through health checks, access verification, and deployment troubleshooting.
 
 ---
 
@@ -277,8 +271,8 @@ Deployed the application across AWS (IaaS) and Azure (PaaS) in a multi-cloud arc
 <td width="60px" align="center">📄</td>
 <td>
 <strong>Review Analysis Using Web Scraping in Python</strong><br/>
-<em>Springer ICDSAI 2023 — 2nd International Conference on Data Science & Artificial Intelligence</em><br/>
-Designed and deployed an end-to-end sentiment classification pipeline — scraping and preprocessing large volumes of e-commerce reviews, training and evaluating multiple ML models through cross-validation and confusion matrix analysis, and deploying the complete system as a Flask web application on AWS for real-time sentiment prediction.<br/>
+<em>Research Assistant · Gandhi Institute of Technology and Management (GITAM) · Springer ICDSAI 2023</em><br/>
+Developed a Python application using BeautifulSoup, Selenium, and NLP preprocessing for automated review collection and sentiment analysis. Evaluated TF-IDF, Naive Bayes, Logistic Regression, and SVM models using cross-validation and confusion matrices. Deployed a Flask-based sentiment prediction application on AWS EC2 with an interactive word-cloud visualization.<br/>
 <a href="https://link.springer.com/chapter/10.1007/978-3-031-51167-7_77">
   <img src="https://img.shields.io/badge/Springer-View%20Publication-00629B?style=flat-square&logo=springer&logoColor=white" />
 </a>
@@ -288,14 +282,21 @@ Designed and deployed an end-to-end sentiment classification pipeline — scrapi
 
 ---
 
+## 🎓 Education
+
+- **Master of Science in Computer Science** — University of Wisconsin–Milwaukee, Milwaukee, WI
+- **Bachelor's in Computer Science** — Gandhi Institute of Technology and Management, Visakhapatnam, India
+
+---
+
 ## 💡 Currently Focused On
 
 ```text
-✦  DevOps · Cloud · SRE roles — actively applying
-✦  Production Kubernetes patterns — StatefulSets, RBAC, IRSA, Ingress
-✦  Advanced AWS production patterns — multi-layer IaC, AMI baking, ASG strategies
-✦  Helm chart design and reusable deployment packaging
-✦  Security embedded at the infrastructure level as a default, not an add-on
+✦  AWS & GCP cloud infrastructure and deployment automation
+✦  DevOps / Cloud Engineering roles focused on reliable operations
+✦  Terraform modules, infrastructure reviews, and configuration consistency
+✦  Kubernetes / EKS troubleshooting, Helm, and Argo CD delivery
+✦  CI/CD automation, cloud monitoring, incident response, and security checks
 ```
 
 ---
